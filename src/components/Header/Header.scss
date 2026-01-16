@@ -1,5 +1,32 @@
 .header{
-    background-color: #d54c4c;
-    color: #fff;
-    font-size: 48px;
+    // background-color: #d54c4c;
+    // color: #fff;
+    // font-size: 48px;
+    padding: 24px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1310x;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.header_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header_logo{
+
+}
+
+.header_search{
+
+}
+
+.header_user{
+
 }
