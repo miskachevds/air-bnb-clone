@@ -14,11 +14,10 @@ const Searchbar = () => {
                     <Link text='Any week' />
                 </div>
                 <div className="searchbar_btn">
-                    <Link text='Add guests' />
+                    <Link text='Add guests' style='light' />
                 </div>
 
-                {/* <button className="searchbar_btn">Any week</button>
-                <button className="searchbar_btn searchbar_btn--light">Add guests</button> */}
+
             </div>
 
             <button className="searchbar_btn-search">
