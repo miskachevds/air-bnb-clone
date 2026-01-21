@@ -4,7 +4,7 @@ import './FilterBtn.scss';
 const FilterBtn = () => {
     return (
         <button className="filter-btn">
-            <img src={filterIcon} alt="filter" />
+            <img src={filterIcon} alt="Filter" />
             Filters
         </button>);
 }
