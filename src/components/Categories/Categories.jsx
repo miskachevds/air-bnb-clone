@@ -6,7 +6,7 @@ const Categories = () => {
         <div className="categories">
             <div className="conteiner">
                 <div className="categories_row">
-                    <div className="categories_list">List all</div>
+                    <div className="categories_list">List all2</div>
                     <div className="categories_filter">
                         <FilterBtn />
                     </div>
