@@ -1,5 +1,5 @@
 import './Categories.scss'
-import FilterBtn from './FilterBtn/FilterBtn';
+import FilterBtn from '../FilterBtn/FilterBtn';
 
 const Categories = () => {
     return (
