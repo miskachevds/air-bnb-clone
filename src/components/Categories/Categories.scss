@@ -6,6 +6,11 @@
     align-items: center;
 }
 
-.categories_list {}
+.categories_list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    // margin: 0 auto;
+}
 
 .categories_filter {}

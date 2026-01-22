@@ -1,12 +1,12 @@
 import styles from './CategoryItem.module.scss'
 
-const CategoryItem = () => {
+const CategoryItem = ({title,img}) => {
     return (
         <div className={styles.wrapper}>
             <div className={styles.img}>
-                <img src="img/categories/01.svg" alt="Cat name" />
+                <img src={img} alt="Cat name" />
             </div>
-            <div className={styles.title}>Category Name</div>
+            <div className={styles.title}>{title}</div>
         </div>
 )
 }
