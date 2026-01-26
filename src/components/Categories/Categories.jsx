@@ -7,18 +7,19 @@ import categoriesData from './../../data/categories.json';
 
 const Categories = () => {
 
-    // console.log(categoriesData);
+    console.log(categoriesData);
     return (
         <div className="categories">
             <div className="container">
                 <div className="categories_row">
                     <div className="categories_list">
 
-                        {categoriesData.map((cat) => {
+                        {categoriesData.map((cat, index) => {
                             return (
                                 <CategoryItem
                                     title={cat.title}
                                     img={cat.img}
+                                    key={index}
                                 />
                             )
                         })}
